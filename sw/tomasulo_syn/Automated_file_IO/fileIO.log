@@ -1,0 +1,20 @@
+﻿Build started 7/8/2011 10:29:07 AM.
+     1>Project "E:\fileIO_automation_tomasulo_may12\fileIO\fileIO.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\fileIO.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\fileIO.unsuccessfulbuild".
+         Touching "Debug\fileIO.lastbuildstate".
+     1>Done Building Project "E:\fileIO_automation_tomasulo_may12\fileIO\fileIO.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.44

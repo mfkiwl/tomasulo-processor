@@ -1,0 +1,22 @@
+xc6sfx100-3csg484
+speed -3
+
+
+Multithreading:
+right-click implement design
+property display level: advanced
+place and route properties
+enable multi-threading
+
+
+FILEIO
+write 0x03 into reg 43 to enter test mode (0x00 for normal operation)
+write 0x01 into reg 42 for 
+
+infile_IM.txt
+reg addr 0x41
+length 2176
+
+outfile_DM.txt
+reg addr 0x41
+length 640

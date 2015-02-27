@@ -1,0 +1,15 @@
+i_fetch_test_stream_lws_sws.txt										infile_DM.txt		outfile_DM_lws_sws_prasanjeet.txt										golden_outfile_DM_lws_sws_prasanjeet.txt
+i_fetch_test_stream_memory_disambiguation.txt                       infile_DM.txt       outfile_memory_disambiguation_prasanjeet.txt		                    golden_outfile_memory_disambiguation_prasanjeet.txt		
+i_fetch_test_stream_memory_disambiguation_RAW.txt                   infile_DM.txt       outfile_DM_memory_disambiguation_RAW_prasanjeet.txt                     golden_outfile_DM_memory_disambiguation_RAW_prasanjeet.txt
+                                                                                                                                                                
+i_fetch_test_stream_memory_disambiguation_add_buff_test.txt         infile_DM.txt       outfile_DM_memory_disambiguation_add_buff_test_prasanjeet.txt           golden_outfile_DM_memory_disambiguation_add_buff_test_prasanjeet.txt
+i_fetch_test_stream_min_finder.txt                                  infile_DM.txt       outfile_DM_min_finder_prasanjeet.txt							        golden_outfile_DM_min_finder_prasanjeet.txt							
+i_fetch_test_stream_selective_flushing.txt                          infile_DM.txt       outfile_DM_selective_flushing_prasanjeet.txt                            golden_outfile_DM_selective_flushing_prasanjeet.txt
+                                                                                                                                                                
+i_fetch_test_stream_selective_flushing_memory_diambiguation.txt     infile_DM.txt       outfile_DM_selective_flushing_memory_diambiguation_prasanjeet.txt       golden_outfile_DM_selective_flushing_memory_diambiguation_prasanjeet.txt
+i_fetch_test_stream_sort.txt                                        infile_DM.txt       outfile_DM_sort_prasanjeet.txt                                          golden_outfile_DM_sort_prasanjeet.txt
+i_fetch_test_stream_sort_selection_only.txt                         infile_DM.txt       outfile_DM_sort_selection_only_prasanjeet.txt                           golden_outfile_DM_sort_selection_only_prasanjeet.txt
+                                                                                                                                                                
+i_fetch_test_stream_summation.txt                                   infile_DM.txt       outfile_DM_summation_prasanjeet.txt                                     golden_outfile_DM_summation_prasanjeet.txt
+i_fetch_test_stream_summation_with_jumps.txt                        infile_DM.txt       outfile_DM_summation_with_jumps_prasanjeet.txt                          golden_outfile_DM_summation_with_jumps_prasanjeet.txt
+i_fetch_test_stream_sws.txt                                         infile_DM.txt       outfile_DM_sws_prasanjeet.txt                                           golden_outfile_DM_sws_prasanjeet.txt

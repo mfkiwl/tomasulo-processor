@@ -1,0 +1,30 @@
+Instructions for using compiled library and signal spy for testing
+---------------------------------------------------------------------
+
+Suppose we want to test the Branch Prediction Buffer (BPB) using signal spy. You can follow this procedure for any component; I am just using BPB as an example. We have provided a signal spy test bench for BPB, a compiled library called "ee560" which contains a compiled version of the entire Tomasulo project, and vhdl source files containing different instruction streams to test the CPU. 
+
+Signal spy library is provided by modelsim so that any signal which is instantiated deep inside some component may be mapped to a signal in the top-level file. In the signal spy test bench for BPB, we instantiate the entire tomasulo cpu from the ee560 library, and also instantiate a separate BPB designed by you. We'll call the ee560 library's BPB as the "golden" design since it is (hopefully) the correct implementation. We give the student's BPB the same inputs as the golden design using signal spy, and compare the outputs.
+
+Steps needed to test your design:
+
+1.) Create a project and add your BPB source file and the BPB testbench provided to the project.
+2.) a)Copy the library ee560 to the project folder. This library is pre-compiled with the "add" test stream
+	b)Copy "inst_cache_dpram_r2_sim.vhd" into your project folder. You do not need to add it to the project.
+	c)Copy all instruction stream source files to your project folder. You do not need to add them to the project.
+	
+3.) Compile your BPB source file and the BPB testbench file
+4.) Simulate by typing:
+
+vsim work.top_tb
+run 20us
+//quit -sim
+
+5.) Any errors would be reported in the file "TomasuloCompareTestLog.log" by signal spy. You should check the waveforms for the cause of errors.
+6.) Suppose your design works with the add stream, and now you want to test it with the "divide" test stream. So we'll need to compile the divide test stream into the ee560 library. We also need to recompile the "inst_cache_dpram_r2_sim.vhd" since it depends on the test stream. Note that inst_cache_dpram_r2_sim.vhd is present in the ee560.zip file.
+
+vcom -work ee560 i_fetch_test_stream_div.vhd
+vcom -work ee560 inst_cache_dpram_r2_sim.vhd
+
+Notice the "-work ee560" flag that we used. This compiles these files into the ee560 library and not into the default work library.
+
+7.) Repeat steps 4,5,6 for any streams you want to test.

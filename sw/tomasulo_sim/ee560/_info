@@ -1,0 +1,1040 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Modelsim_projects\megatb
+Eaddbuff
+Z1 DPx4 ieee 15 std_logic_arith 0 22 4`Y?g_lkdn;7UL9IiJck01
+Z2 DPx3 std 6 textio 0 22 G^o2zK;Vh4eVdKTVo98653
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 OP;C;10.0a;49
+32
+w1277945282
+Z5 8C:/Modelsim_projects/megatb/AddBuff_r2_NEW.vhd
+Z6 FC:/Modelsim_projects/megatb/AddBuff_r2_NEW.vhd
+l0
+L35
+VTX>1zY^MCF[0c2[e9aAEW1
+Z7 OX;C;6.3c;37
+Z8 o-work ee560 -O0
+Z9 tExplicit 1
+Z10 dC:\Modelsim_projects\megatb
+Abehave
+w0
+R1
+R2
+R3
+DEx4 work 7 addbuff 0 22 TX>1zY^MCF[0c2[e9aAEW1
+R4
+32
+l112
+L86
+V60?KO:z>ik2C:E:JaUX<`2
+R7
+R8
+R9
+Ealu
+Z11 DPx4 ieee 16 std_logic_signed 0 22 E>OLoMaBGQ?hbGgOoNXM^1
+R1
+R2
+R3
+R4
+32
+w1274396376
+Z12 8C:/Modelsim_projects/megatb/alu_r1.vhd
+Z13 FC:/Modelsim_projects/megatb/alu_r1.vhd
+l0
+L12
+Vc`Q:ZEPSkzZPjh94mdK1B3
+R7
+R8
+R9
+R10
+Acomput
+w0
+R11
+R1
+R2
+R3
+DEx4 work 3 alu 0 22 c`Q:ZEPSkzZPjh94mdK1B3
+R4
+32
+l52
+L50
+VY5E?VgEnn175@`jz>Y6X40
+R7
+R8
+R9
+Ebpb
+Z14 DPx4 ieee 18 std_logic_unsigned 0 22 RYmj;=TK`k=k>D@Cz`zoB3
+R1
+R2
+R3
+R4
+32
+w1277600870
+Z15 8C:/Modelsim_projects/megatb/bpb_NEW.vhd
+Z16 FC:/Modelsim_projects/megatb/bpb_NEW.vhd
+l0
+L28
+VV[GN:f<>LiMCmCF2dj1Oh1
+R7
+R8
+R9
+R10
+Abehv
+w0
+R14
+R1
+R2
+R3
+DEx4 work 3 bpb 0 22 V[GN:f<>LiMCmCF2dj1Oh1
+R4
+32
+l54
+L46
+VPW[lILeMO7U^no2C2`VUk2
+R7
+R8
+R9
+Ecdb
+R14
+R1
+R2
+R3
+R4
+32
+w1274395520
+Z17 8C:/Modelsim_projects/megatb/CDB.vhd
+Z18 FC:/Modelsim_projects/megatb/CDB.vhd
+l0
+L22
+VMOc@_aRjCFHO1`k<<jBO:1
+R7
+R8
+R9
+R10
+Abehavioral
+w0
+R14
+R1
+R2
+R3
+DEx4 work 3 cdb 0 22 MOc@_aRjCFHO1`k<<jBO:1
+R4
+32
+l118
+L103
+Vf3l`Z`Uf4;gUX8n^6h<F<3
+R7
+R8
+R9
+Ecfc
+R14
+R1
+R2
+R3
+R4
+32
+w1276308402
+Z19 8C:/Modelsim_projects/megatb/Cfc_withBRAM.vhd
+Z20 FC:/Modelsim_projects/megatb/Cfc_withBRAM.vhd
+l0
+L15
+VQ2Ch4KhhfR6d:zkffRcmB1
+R7
+R8
+R9
+R10
+Acfc_arch
+w0
+R14
+R1
+R2
+R3
+DEx4 work 3 cfc 0 22 Q2Ch4KhhfR6d:zkffRcmB1
+R4
+32
+l95
+L56
+VCb0f0WMjzk4hHP<EN`m0l2
+R7
+R8
+R9
+Edata_cache
+R1
+R2
+R3
+R4
+32
+w1279127516
+Z21 8C:/Modelsim_projects/megatb/data_cache_r3.vhd
+Z22 FC:/Modelsim_projects/megatb/data_cache_r3.vhd
+l0
+L16
+V3gW?_JSk9AC1Lm457g_zH0
+R7
+R8
+R9
+R10
+Abehv
+w0
+R1
+R2
+R3
+DEx4 work 10 data_cache 0 22 3gW?_JSk9AC1Lm457g_zH0
+R4
+32
+l174
+L79
+V:J`NCdikWafL9iSf6MYD_1
+R7
+R8
+R9
+Edispatch_unit
+R11
+R1
+R2
+R3
+R4
+32
+w1276294940
+Z23 8C:/Modelsim_projects/megatb/dispatch_xtend_BRAM.vhd
+Z24 FC:/Modelsim_projects/megatb/dispatch_xtend_BRAM.vhd
+l0
+L16
+Vn_an54j_9_b^2CHb0If_]2
+R7
+R8
+R9
+R10
+Abehv
+w0
+R11
+R1
+R2
+R3
+DEx4 work 13 dispatch_unit 0 22 n_an54j_9_b^2CHb0If_]2
+R4
+32
+l159
+L137
+VAEMPBZ<fI3:JjFXNPgi1P2
+R7
+R8
+R9
+Edivider
+R1
+R2
+R3
+R4
+32
+w1274397736
+Z25 8C:/Modelsim_projects/megatb/divider_r2.vhd
+Z26 FC:/Modelsim_projects/megatb/divider_r2.vhd
+l0
+L8
+Vg@^D]_ol6lZQC0f7RCQFN3
+R7
+R8
+R9
+R10
+Abehv
+w0
+R1
+R2
+R3
+DEx4 work 7 divider 0 22 g@^D]_ol6lZQC0f7RCQFN3
+R4
+32
+l87
+L43
+V0S>W45eT0?Hha<o4MT];Y1
+R7
+R8
+R9
+Edivider_core
+R1
+R2
+R3
+R4
+32
+Z27 w1272316916
+Z28 8C:/Modelsim_projects/megatb/divider_core.vhd
+Z29 FC:/Modelsim_projects/megatb/divider_core.vhd
+l0
+L20
+V^R_I3@4c]cU6T>1z]hHI70
+R7
+R8
+R9
+R10
+Abehv
+w0
+R1
+R2
+R3
+DEx4 work 12 divider_core 0 22 ^R_I3@4c]cU6T>1z]hHI70
+R4
+32
+l29
+L27
+VR^223NMo9bmk9D1Bc0NdG3
+R7
+R8
+R9
+Efrl
+R14
+R1
+R2
+R3
+R4
+32
+w1277921798
+Z30 8C:/Modelsim_projects/megatb/Free_register_list.vhd
+Z31 FC:/Modelsim_projects/megatb/Free_register_list.vhd
+l0
+L7
+VH8D9W>OdG55JVh5R0:fle1
+R7
+R8
+R9
+R10
+Abehav
+w0
+R14
+R1
+R2
+R3
+DEx4 work 3 frl 0 22 H8D9W>OdG55JVh5R0:fle1
+R4
+32
+l36
+L29
+VKbCNmZ]oZjJLeXFEg7@Dz2
+R7
+R8
+R9
+Ei_fetch_fifo_ram_reg_array
+R1
+R14
+R2
+R3
+R4
+32
+R27
+Z32 8C:/Modelsim_projects/megatb/i_fetch_fifo_ram_reg_array.vhd
+Z33 FC:/Modelsim_projects/megatb/i_fetch_fifo_ram_reg_array.vhd
+l0
+L17
+V21;YCC5kUJC6W;k>ViHk@2
+R7
+R8
+R9
+R10
+Asyn
+w0
+R1
+R14
+R2
+R3
+DEx4 work 26 i_fetch_fifo_ram_reg_array 0 22 21;YCC5kUJC6W;k>ViHk@2
+R4
+32
+l38
+L32
+VG:BUYE=JRM=:;^ljDK:T12
+R7
+R8
+R9
+Ei_fetch_q
+R1
+R2
+R3
+R4
+32
+w1277921338
+Z34 8C:/Modelsim_projects/megatb/i_fetch_q_efficient_r2.vhd
+Z35 FC:/Modelsim_projects/megatb/i_fetch_q_efficient_r2.vhd
+l0
+L33
+V99BIJR<?SG15j:DzLO5k_2
+R7
+R8
+R9
+R10
+Ai_fetch_q_arc
+w0
+R1
+R2
+R3
+DEx4 work 9 i_fetch_q 0 22 99BIJR<?SG15j:DzLO5k_2
+R4
+32
+l118
+L65
+V;F^TM=cS@C=2i1OCEOK=d0
+R7
+R8
+R9
+Einst_cache
+R1
+R2
+R3
+R4
+32
+w1279127534
+Z36 8C:/Modelsim_projects/megatb/inst_cache_r2.vhd
+Z37 FC:/Modelsim_projects/megatb/inst_cache_r2.vhd
+l0
+L16
+V1Q_8d6kMEQ6:P;LAO:]j43
+R7
+R8
+R9
+R10
+Abehv
+w0
+R1
+R2
+R3
+DEx4 work 10 inst_cache 0 22 1Q_8d6kMEQ6:P;LAO:]j43
+R4
+32
+l120
+L44
+Vk]?I1AYPaj=SnehXHF^6W1
+R7
+R8
+R9
+Einst_cache_dpram
+R27
+Z38 DPx4 work 16 instr_stream_pkg 0 22 64Si[USJl>1K8b9EkNjal2
+R1
+R2
+R3
+Z39 dC:\Users\suvil\Desktop\Testing of MegaTB
+Z40 8inst_cache_dpram_r2_sim.vhd
+Z41 Finst_cache_dpram_r2_sim.vhd
+l0
+L45
+VlCldU7;l1@@N;N33`^3E@1
+R4
+32
+Z42 !s108 1311033999.337000
+Z43 !s90 -reportprogress|300|-work|ee560|inst_cache_dpram_r2_sim.vhd|
+Z44 !s107 inst_cache_dpram_r2_sim.vhd|
+R8
+R9
+!s100 C_AD3TYm[;DfKlggOz_4N2
+Ainferable
+R38
+R1
+R2
+R3
+DEx4 work 16 inst_cache_dpram 0 22 lCldU7;l1@@N;N33`^3E@1
+l165
+L68
+VJL1CdR88?KD[nm7;YNP`c0
+!s100 fzN;Mjm@X@HzL8hzj6CMH1
+R4
+32
+R42
+R43
+R44
+R8
+R9
+Pinstr_stream_pkg
+R2
+R3
+w1274409940
+R39
+8i_fetch_test_stream_jal_jr_factorial_simple.vhd
+Fi_fetch_test_stream_jal_jr_factorial_simple.vhd
+l0
+L17
+V64Si[USJl>1K8b9EkNjal2
+R4
+32
+R8
+R9
+!s100 BXTP>UEf6i7Ja1ePe@jib0
+!s108 1311033998.913000
+!s90 -reportprogress|300|-work|ee560|i_fetch_test_stream_jal_jr_factorial_simple.vhd|
+!s107 i_fetch_test_stream_jal_jr_factorial_simple.vhd|
+Eissue_unit
+R1
+R2
+R3
+R4
+30
+w1309034306
+Z45 dC:\CMT\TA
+Z46 8issue_unit_NEW_modif.vhd
+Z47 Fissue_unit_NEW_modif.vhd
+l0
+L17
+V:O<hkGPiiN?e9_M72TKVW2
+Z48 OE;C;6.3f;37
+Z49 o-work ee560
+R9
+Abehavioral
+w0
+R1
+R2
+R3
+DEx4 work 10 issue_unit 0 22 :O<hkGPiiN?e9_M72TKVW2
+R4
+32
+l52
+L46
+VPLMXSVHn5ZOS<zZAidBE`0
+R48
+R49
+R9
+Eissueque
+R1
+R2
+R3
+R4
+32
+w1276634054
+Z50 8C:/Modelsim_projects/megatb/issueque.vhd
+Z51 FC:/Modelsim_projects/megatb/issueque.vhd
+l0
+L28
+V9WL9noL]ccP5_HWdgPGP90
+R7
+R8
+R9
+R10
+Abehav
+w0
+R1
+R2
+R3
+DEx4 work 8 issueque 0 22 9WL9noL]ccP5_HWdgPGP90
+R4
+32
+l162
+L110
+V[C;Z^nQ^>RSM9IBcYSB:L2
+R7
+R8
+R9
+Eissueque_div
+R1
+R2
+R3
+R4
+32
+w1274402840
+Z52 8C:/Modelsim_projects/megatb/issueque_div.vhd
+Z53 FC:/Modelsim_projects/megatb/issueque_div.vhd
+l0
+L28
+ViXjN?dPIhGzLe=^M1d1E92
+R7
+R8
+R9
+R10
+Abehav
+w0
+R1
+R2
+R3
+DEx4 work 12 issueque_div 0 22 iXjN?dPIhGzLe=^M1d1E92
+R4
+32
+l135
+L98
+V6g2nNlG3_za3<QABhWozN1
+R7
+R8
+R9
+Eissueque_mult
+R1
+R2
+R3
+R4
+32
+w1274402558
+Z54 8C:/Modelsim_projects/megatb/issueque_mult.vhd
+Z55 FC:/Modelsim_projects/megatb/issueque_mult.vhd
+l0
+L28
+VH?RFlZoUKo_>=^zKBeRi63
+R7
+R8
+R9
+R10
+Abehav
+w0
+R1
+R2
+R3
+DEx4 work 13 issueque_mult 0 22 H?RFlZoUKo_>=^zKBeRi63
+R4
+32
+l134
+L97
+V_[SMfl;@eFRRBE5YzKe1N2
+R7
+R8
+R9
+Els_buffer
+R14
+R1
+R2
+R3
+R4
+32
+w1272566774
+Z56 8C:/Modelsim_projects/megatb/ls_buffer_r1_NEW.vhd
+Z57 FC:/Modelsim_projects/megatb/ls_buffer_r1_NEW.vhd
+l0
+L21
+VZdHkCQoK5MhL9L64c<X[>3
+R7
+R8
+R9
+R10
+Astruct
+w0
+R14
+R1
+R2
+R3
+DEx4 work 9 ls_buffer 0 22 ZdHkCQoK5MhL9L64c<X[>3
+R4
+32
+l97
+L76
+V<IVJ2iWOPT:2@iN3MV80B2
+R7
+R8
+R9
+Els_buffer_ram_reg_array
+R1
+R14
+R2
+R3
+R4
+32
+R27
+Z58 8C:/Modelsim_projects/megatb/ls_buffer_ram_reg_array.vhd
+Z59 FC:/Modelsim_projects/megatb/ls_buffer_ram_reg_array.vhd
+l0
+L14
+VBVG;Z^HVCl7OCNK5AhU4i3
+R7
+R8
+R9
+R10
+Asyn
+w0
+R1
+R14
+R2
+R3
+DEx4 work 23 ls_buffer_ram_reg_array 0 22 BVG;Z^HVCl7OCNK5AhU4i3
+R4
+32
+l69
+L41
+V04e[I8hX[YAcihl_bDG?93
+R7
+R8
+R9
+Elsq
+R1
+R2
+R3
+R4
+32
+w1277945230
+Z60 8C:/Modelsim_projects/megatb/Lsq_new.vhd
+Z61 FC:/Modelsim_projects/megatb/Lsq_new.vhd
+l0
+L38
+V8>f>]IW0U01^0M=l]4Yoc3
+R7
+R8
+R9
+R10
+Abehave
+w0
+R1
+R2
+R3
+DEx4 work 3 lsq 0 22 8>f>]IW0U01^0M=l]4Yoc3
+R4
+32
+l285
+L95
+VQ1;D6_HVM^j58NK?HELPc3
+R7
+R8
+R9
+Elsquectrl
+R1
+R2
+R3
+R4
+32
+w1273011732
+Z62 8C:/Modelsim_projects/megatb/Lsqcntrl_r1_NEW.vhd
+Z63 FC:/Modelsim_projects/megatb/Lsqcntrl_r1_NEW.vhd
+l0
+L31
+VkBfEa4<MDzNgM8Wfc4M640
+R7
+R8
+R9
+R10
+Abehavctrl
+w0
+R1
+R2
+R3
+DEx4 work 9 lsquectrl 0 22 kBfEa4<MDzNgM8Wfc4M640
+R4
+32
+l140
+L132
+V@PbF2Y>E89<i3Hmj`TAX]2
+R7
+R8
+R9
+Emega_tb
+Z64 w1279130402
+Z65 DPx12 modelsim_lib 4 util 0 22 Ci0SSDmVf2K[lFkJZoo=62
+R3
+R2
+Z66 DPx4 ieee 16 std_logic_textio 0 22 nS@;e8VD1o]DCVjBMSZYk3
+R39
+Z67 8mega_tb.vhd
+Z68 Fmega_tb.vhd
+l0
+L22
+Vb4?KCNdZkZo_jOKRnKYFF1
+!s100 `?zcck2BH]0__ALTT^PF>3
+R4
+32
+Z69 !s108 1311033999.759000
+Z70 !s90 -reportprogress|300|-work|ee560|mega_tb.vhd|
+Z71 !s107 mega_tb.vhd|
+R8
+R9
+Amega_tb_a
+R65
+R3
+R2
+R66
+Z72 DEx4 work 7 mega_tb 0 22 b4?KCNdZkZo_jOKRnKYFF1
+l91
+L28
+Z73 VeeVJdej<gX2E<?Jj0?:O72
+Z74 !s100 DIkUI3^dLo_M@AYA@`Nf[2
+R4
+32
+R69
+R70
+R71
+R8
+R9
+Emultiplier
+R11
+R1
+R2
+R3
+R4
+32
+Z75 w1272316918
+Z76 8C:/Modelsim_projects/megatb/multiplier_r1.vhd
+Z77 FC:/Modelsim_projects/megatb/multiplier_r1.vhd
+l0
+L17
+Vbh`PUCDg@FXi1>g^1cCH;2
+R7
+R8
+R9
+R10
+Amultiply
+w0
+R11
+R1
+R2
+R3
+DEx4 work 10 multiplier 0 22 bh`PUCDg@FXi1>g^1cCH;2
+R4
+32
+l83
+L50
+VaT`YD<@VIG`oJ_ibLD^go0
+R7
+R8
+R9
+Emultiplier_core
+R1
+R2
+R3
+R4
+32
+R75
+Z78 8C:/Modelsim_projects/megatb/multiplier_core.vhd
+Z79 FC:/Modelsim_projects/megatb/multiplier_core.vhd
+l0
+L25
+VRMgUcjEC6kSemn?=Qf][Q1
+R7
+R8
+R9
+R10
+Abehv
+w0
+R1
+R2
+R3
+DEx4 work 15 multiplier_core 0 22 RMgUcjEC6kSemn?=Qf][Q1
+R4
+32
+l50
+L33
+VBmfH`9MK0BW<B1zPJQ>QL2
+R7
+R8
+R9
+Ephysicalregister_file
+R14
+R1
+R2
+R3
+R4
+32
+w1274395518
+Z80 8C:/Modelsim_projects/megatb/physical_register_file.vhd
+Z81 FC:/Modelsim_projects/megatb/physical_register_file.vhd
+l0
+L26
+VhR`o;eaEg?ZW_jGz3mKP>3
+R7
+R8
+R9
+R10
+Aregfile
+w0
+R14
+R1
+R2
+R3
+DEx4 work 21 physicalregister_file 0 22 hR`o;eaEg?ZW_jGz3mKP>3
+R4
+32
+l85
+L75
+VdQ7f>_QWTY6Tm5b:1VfDH0
+R7
+R8
+R9
+Eras
+R1
+R2
+R3
+R11
+R4
+32
+R75
+Z82 8C:/Modelsim_projects/megatb/RAS.vhd
+Z83 FC:/Modelsim_projects/megatb/RAS.vhd
+l0
+L28
+V>WIEc>hN_:LHcKWW`4o_V0
+R7
+R8
+R9
+R10
+Aras_arch
+w0
+R1
+R2
+R3
+R11
+DEx4 work 3 ras 0 22 >WIEc>hN_:LHcKWW`4o_V0
+R4
+32
+l73
+L51
+Vk5jj5CE8GIkV505@;JA`<1
+R7
+R8
+R9
+Preverseassemblyfunctionpkg
+R1
+R14
+R3
+R66
+R2
+R4
+32
+b1
+Z84 w1273181914
+Z85 8C:/Modelsim_projects/megatb/reverseAssemblyFunctionPkg_r3.vhd
+Z86 FC:/Modelsim_projects/megatb/reverseAssemblyFunctionPkg_r3.vhd
+l0
+L23
+V89zK;^nl2mgVTV78RjOXl0
+R7
+R8
+R9
+R10
+Bbody
+Z87 DPx4 work 26 reverseassemblyfunctionpkg 0 22 89zK;^nl2mgVTV78RjOXl0
+R1
+R14
+R3
+R66
+R2
+R4
+32
+l0
+L30
+V8YBBS51_Yz:a25ULi_]zC1
+R7
+R8
+R9
+nbody
+Erob
+R66
+R87
+R14
+R1
+R2
+R3
+R4
+32
+w1277945184
+Z88 8C:/Modelsim_projects/megatb/rob.vhd
+Z89 FC:/Modelsim_projects/megatb/rob.vhd
+l0
+L25
+VM^]:]9JZgQinHiC4c`1VN3
+R7
+R8
+R9
+R10
+Arob_arch
+w0
+R66
+R87
+R14
+R1
+R2
+R3
+DEx4 work 3 rob 0 22 M^]:]9JZgQinHiC4c`1VN3
+R4
+32
+l103
+L74
+V^cE[;QTR8<hMA<alUc8XS2
+R7
+R8
+R9
+Estore_buffer
+R14
+R1
+R2
+R3
+R4
+32
+w1277945688
+Z90 8C:/Modelsim_projects/megatb/storebuffer.vhd
+Z91 FC:/Modelsim_projects/megatb/storebuffer.vhd
+l0
+L12
+Vl@:>jmbG9f;YcJL@[]6jP0
+R7
+R8
+R9
+R10
+Astruct
+w0
+R14
+R1
+R2
+R3
+DEx4 work 12 store_buffer 0 22 l@:>jmbG9f;YcJL@[]6jP0
+R4
+32
+l60
+L44
+V5z_WGbccU]A4[;RezkXgV0
+R7
+R8
+R9
+Etomasulo_top
+R66
+R87
+R14
+R1
+R2
+R3
+R4
+32
+w1277945150
+Z92 8C:/Modelsim_projects/megatb/top_synth.vhd
+Z93 FC:/Modelsim_projects/megatb/top_synth.vhd
+l0
+L28
+V:3fHP36W1dGHhM<<UA<Xf0
+R7
+R8
+R9
+R10
+Abehave
+w0
+R66
+R87
+R14
+R1
+R2
+R3
+DEx4 work 12 tomasulo_top 0 22 :3fHP36W1dGHhM<<UA<Xf0
+R4
+32
+l1251
+L62
+VF@WzlPZk0?NNV>PEO6G?N2
+R7
+R8
+R9
+Etop_tb
+R3
+R2
+R66
+R4
+32
+w1277944888
+Z94 8C:/Modelsim_projects/megatb/test_top_cpu.vhd
+Z95 FC:/Modelsim_projects/megatb/test_top_cpu.vhd
+l0
+L18
+VgKBikh3mIBhQlH>EL:==a3
+R7
+R8
+R9
+R10
+Atop_tb_a
+w0
+R3
+R2
+R66
+DEx4 work 6 top_tb 0 22 gKBikh3mIBhQlH>EL:==a3
+R4
+32
+l80
+L21
+Vj]cQ4^nc]5::nTckoCUhG1
+R7
+R8
+R9
