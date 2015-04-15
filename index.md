@@ -12,7 +12,7 @@ An out-of-order (OoO) processor utilizing the Tomasulo hardware algorithm for dy
 This project was developed in the summer of 2011 with lab partner, Max Chin, for USC's Digital Design Tools & Techniques (EE-645) course, taught by professor Gandhi Puvvada.
 
 ## Hardware
-This project was implemented on a []Digilent Nexys 3 Spartan-6 FPGA board](http://www.digilentinc.com/Products/Detail.cfm?NavPath=2,400,897&Prod=NEXYS3&CFID=8760039&CFTOKEN=c6463f3d9216e84e-58132DE0-5056-0201-02184BF1EA12A8C4). The Nexys 3 was a digital system development platform featuring: 
+This project was implemented on a [Digilent Nexys 3 Spartan-6 FPGA board](http://www.digilentinc.com/Products/Detail.cfm?NavPath=2,400,897&Prod=NEXYS3&CFID=8760039&CFTOKEN=c6463f3d9216e84e-58132DE0-5056-0201-02184BF1EA12A8C4). The Nexys 3 was a digital system development platform featuring: 
 
 * Xilinx Spartan6 XC6LX16-CS324
 * 16MB Micron Cellular RAM
@@ -32,3 +32,4 @@ For development, the Nexys 3 FPGA was used with Xilinx tools such as ISE, EDK, a
 * architecture
 * algorithms
 * functionality
+* debugging
